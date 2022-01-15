@@ -1,2 +1,3 @@
-# mixup-vq-vae
-A Novel Image Augmentation Technique for Clinical Machine Learning Applications
+# Mixup-VQ-VAE: A Novel Image Augmentation Technique for Clinical Machine Learning Applications
+
+In many applications of clinical machine learning, available datasets may not be sufficiently large enough to train generalizable supervised machine learning models. To improve the generalizability of supervised machine learning models in clinical machine learning applications, Mixup-VQ-VAE, a novel data augmentation mechanism that recombines samples in the latent space of a Vector-Quantized Variational Autoencoder (VQ-VAE) using Mixup, a convex interpolation technique is proposed. Performance of deep neural networks trained on Chest X-ray medical imagery, augmented with Mixup-VQ-VAE and other computer vision data augmentation algorithms, are compared. It was observed that Mixup-VQ-VAE improves the test accuracy of ResNet-50 on this task by 18% over the same model trained on non-augmented data, highlighting the efficacy of this augmentation mechanism for clinical machine learning applications.
